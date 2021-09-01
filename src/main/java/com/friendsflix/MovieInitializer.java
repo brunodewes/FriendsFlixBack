@@ -136,6 +136,7 @@ public class MovieInitializer implements CommandLineRunner {
         topRated7.setRating(0.0f);
         topRated7.setCategory("Top Rated");
 
+
         Movie acao1 = new Movie();
         acao1.setTitle("The Suicide Squad");
         acao1.setImageUrl(movieImage("w600_and_h900_bestv2/iXbWpCkIauBMStSTUT9v4GXvdgH.jpg"));
@@ -186,6 +187,105 @@ public class MovieInitializer implements CommandLineRunner {
         acao7.setCategory("Action");
 
 
+        Movie popular1 = new Movie();
+        new10.setTitle("The Suicide Squad");
+        new10.setImageUrl(movieImage("w220_and_h330_face/iXbWpCkIauBMStSTUT9v4GXvdgH.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular2 = new Movie();
+        new10.setTitle("Sweet Girl");
+        new10.setImageUrl(movieImage("w220_and_h330_face/cP7odDzzFBD9ycxj2laTeFWGLjD.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular3 = new Movie();
+        new10.setTitle("Jungle Cruise");
+        new10.setImageUrl(movieImage("w220_and_h330_face/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular4 = new Movie();
+        new10.setTitle("PAW Patrol: The Movie");
+        new10.setImageUrl(movieImage("w220_and_h330_face/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular5 = new Movie();
+        new10.setTitle("Eggs Run");
+        new10.setImageUrl(movieImage("w220_and_h330_face/wrlQnKHLCBheXMNWotyr5cVDqNM.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular6 = new Movie();
+        new10.setTitle("Black Widow");
+        new10.setImageUrl(movieImage("w220_and_h330_face/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+        Movie popular7 = new Movie();
+        new10.setTitle("Space Jam: A New Legacy");
+        new10.setImageUrl(movieImage("w220_and_h330_face/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Popular");
+
+
+        Movie upcoming1 = new Movie();
+        new10.setTitle("Venom: Let There Be Carnage");
+        new10.setImageUrl(movieImage("w220_and_h330_face/jNd6tx7FL2h7wtZgLUsLvzD0kFN.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming2 = new Movie();
+        new10.setTitle("Malignant");
+        new10.setImageUrl(movieImage("w220_and_h330_face/1N5e56325vwih8IeJ29k9FZf8p8.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming3 = new Movie();
+        new10.setTitle("Cry Macho");
+        new10.setImageUrl(movieImage("w220_and_h330_face/nMFWfwer3IYTALLEiNno4SaVMbE.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming4 = new Movie();
+        new10.setTitle("Copshop");
+        new10.setImageUrl(movieImage("w220_and_h330_face/9Se3AIepFRZ4VUaaDosADs8WMX5.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming5 = new Movie();
+        new10.setTitle("The Card Counter");
+        new10.setImageUrl(movieImage("w220_and_h330_face/60AQOrByV9vDCqy6nt4eOroRild.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming6 = new Movie();
+        new10.setTitle("Dear Evan Hansen");
+        new10.setImageUrl(movieImage("w220_and_h330_face/11sowWt2GlQj6lGG4foLldXMyzF.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
+        Movie upcoming7 = new Movie();
+        new10.setTitle("Time Is Up");
+        new10.setImageUrl(movieImage("w220_and_h330_face/inNOfgjhnPZkJfqpLS1mk4GbzMc.jpg"));
+        new10.setNumRating(0);
+        new10.setRating(0.0f);
+        new10.setCategory("Upcoming");
+
 
         movieRepository.save(new1);
         movieRepository.save(new2);
@@ -214,6 +314,21 @@ public class MovieInitializer implements CommandLineRunner {
         movieRepository.save(acao6);
         movieRepository.save(acao7);
 
+        movieRepository.save(popular1);
+        movieRepository.save(popular2);
+        movieRepository.save(popular3);
+        movieRepository.save(popular4);
+        movieRepository.save(popular5);
+        movieRepository.save(popular6);
+        movieRepository.save(popular7);
+
+        movieRepository.save(upcoming1);
+        movieRepository.save(upcoming2);
+        movieRepository.save(upcoming3);
+        movieRepository.save(upcoming4);
+        movieRepository.save(upcoming5);
+        movieRepository.save(upcoming6);
+        movieRepository.save(upcoming7);
     }
 
     private String movieImage(String url) {
