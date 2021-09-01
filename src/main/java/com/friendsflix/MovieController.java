@@ -11,6 +11,7 @@ import com.friendsflix.repositories.UserRepository;
 import com.friendsflix.responses.LoginResponse;
 import com.friendsflix.responses.MovieListResponse;
 import com.friendsflix.responses.MovieResponse;
+import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -179,6 +180,56 @@ public class MovieController {
         commentRepository.save(comments);
 
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @PostMapping("profile")
+    @ResponseBody
+    public ResponseEntity<?> profile(
+            @RequestParam("user_id") Integer userId
+    ) {
+        List<Movie> favorites = movieRepository.getFavoriteMovies(userId);
+        List<MovieResponse> movieResponses = new ArrayList<>();
+        for (Movie movie : favorites) {
+            movieResponses.add(new MovieResponse(movie.getId(), movie.getTitle(), movie.getImageUrl()));
+        }
+        User user = userRepository.getById(userId);
+        return new ResponseEntity<>(new Profile(user.getName(), user.getAge(), new MovieListResponse(movieResponses)), HttpStatus.OK);
+    }
+
+    private class Profile {
+        private String name;
+        private Integer age;
+        private MovieListResponse movies;
+
+        public MovieListResponse getMovies() {
+            return movies;
+        }
+
+        public void setMovies(MovieListResponse movies) {
+            this.movies = movies;
+        }
+
+        public Profile(String name, Integer age, MovieListResponse movies) {
+            this.name = name;
+            this.age = age;
+            this.movies = movies;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Integer getAge() {
+            return age;
+        }
+
+        public void setAge(Integer age) {
+            this.age = age;
+        }
     }
 
     private class MovieDetailResponse {

@@ -188,103 +188,103 @@ public class MovieInitializer implements CommandLineRunner {
 
 
         Movie popular1 = new Movie();
-        new10.setTitle("The Suicide Squad");
-        new10.setImageUrl(movieImage("w220_and_h330_face/iXbWpCkIauBMStSTUT9v4GXvdgH.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular1.setTitle("The Suicide Squad");
+        popular1.setImageUrl(movieImage("w220_and_h330_face/iXbWpCkIauBMStSTUT9v4GXvdgH.jpg"));
+        popular1.setNumRating(0);
+        popular1.setRating(0.0f);
+        popular1.setCategory("Popular");
 
         Movie popular2 = new Movie();
-        new10.setTitle("Sweet Girl");
-        new10.setImageUrl(movieImage("w220_and_h330_face/cP7odDzzFBD9ycxj2laTeFWGLjD.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular2.setImageUrl(movieImage("w220_and_h330_face/cP7odDzzFBD9ycxj2laTeFWGLjD.jpg"));
+        popular2.setNumRating(0);
+        popular2.setRating(0.0f);
+        popular2.setTitle("Sweet Girl");
+        popular2.setCategory("Popular");
 
         Movie popular3 = new Movie();
-        new10.setTitle("Jungle Cruise");
-        new10.setImageUrl(movieImage("w220_and_h330_face/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular3.setTitle("Jungle Cruise");
+        popular3.setImageUrl(movieImage("w220_and_h330_face/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"));
+        popular3.setNumRating(0);
+        popular3.setRating(0.0f);
+        popular3.setCategory("Popular");
 
         Movie popular4 = new Movie();
-        new10.setTitle("PAW Patrol: The Movie");
-        new10.setImageUrl(movieImage("w220_and_h330_face/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular4.setTitle("PAW Patrol: The Movie");
+        popular4.setImageUrl(movieImage("w220_and_h330_face/ic0intvXZSfBlYPIvWXpU1ivUCO.jpg"));
+        popular4.setNumRating(0);
+        popular4.setRating(0.0f);
+        popular4.setCategory("Popular");
 
         Movie popular5 = new Movie();
-        new10.setTitle("Eggs Run");
-        new10.setImageUrl(movieImage("w220_and_h330_face/wrlQnKHLCBheXMNWotyr5cVDqNM.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular5.setTitle("Eggs Run");
+        popular5.setImageUrl(movieImage("w220_and_h330_face/wrlQnKHLCBheXMNWotyr5cVDqNM.jpg"));
+        popular5.setNumRating(0);
+        popular5.setRating(0.0f);
+        popular5.setCategory("Popular");
 
         Movie popular6 = new Movie();
-        new10.setTitle("Black Widow");
-        new10.setImageUrl(movieImage("w220_and_h330_face/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular6.setImageUrl(movieImage("w220_and_h330_face/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"));
+        popular6.setNumRating(0);
+        popular6.setRating(0.0f);
+        popular6.setTitle("Black Widow");
+        popular6.setCategory("Popular");
 
         Movie popular7 = new Movie();
-        new10.setTitle("Space Jam: A New Legacy");
-        new10.setImageUrl(movieImage("w220_and_h330_face/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Popular");
+        popular7.setTitle("Space Jam: A New Legacy");
+        popular7.setImageUrl(movieImage("w220_and_h330_face/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"));
+        popular7.setNumRating(0);
+        popular7.setRating(0.0f);
+        popular7.setCategory("Popular");
 
 
         Movie upcoming1 = new Movie();
-        new10.setTitle("Venom: Let There Be Carnage");
-        new10.setImageUrl(movieImage("w220_and_h330_face/jNd6tx7FL2h7wtZgLUsLvzD0kFN.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming1.setTitle("Venom: Let There Be Carnage");
+        upcoming1.setImageUrl(movieImage("w220_and_h330_face/jNd6tx7FL2h7wtZgLUsLvzD0kFN.jpg"));
+        upcoming1.setNumRating(0);
+        upcoming1.setRating(0.0f);
+        upcoming1.setCategory("Upcoming");
 
         Movie upcoming2 = new Movie();
-        new10.setTitle("Malignant");
-        new10.setImageUrl(movieImage("w220_and_h330_face/1N5e56325vwih8IeJ29k9FZf8p8.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming2.setTitle("Malignant");
+        upcoming2.setImageUrl(movieImage("w220_and_h330_face/1N5e56325vwih8IeJ29k9FZf8p8.jpg"));
+        upcoming2.setNumRating(0);
+        upcoming2.setRating(0.0f);
+        upcoming2.setCategory("Upcoming");
 
         Movie upcoming3 = new Movie();
-        new10.setTitle("Cry Macho");
-        new10.setImageUrl(movieImage("w220_and_h330_face/nMFWfwer3IYTALLEiNno4SaVMbE.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming3.setTitle("Cry Macho");
+        upcoming3.setImageUrl(movieImage("w220_and_h330_face/nMFWfwer3IYTALLEiNno4SaVMbE.jpg"));
+        upcoming3.setNumRating(0);
+        upcoming3.setRating(0.0f);
+        upcoming3.setCategory("Upcoming");
 
         Movie upcoming4 = new Movie();
-        new10.setTitle("Copshop");
-        new10.setImageUrl(movieImage("w220_and_h330_face/9Se3AIepFRZ4VUaaDosADs8WMX5.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming4.setTitle("Copshop");
+        upcoming4.setImageUrl(movieImage("w220_and_h330_face/9Se3AIepFRZ4VUaaDosADs8WMX5.jpg"));
+        upcoming4.setNumRating(0);
+        upcoming4.setRating(0.0f);
+        upcoming4.setCategory("Upcoming");
 
         Movie upcoming5 = new Movie();
-        new10.setTitle("The Card Counter");
-        new10.setImageUrl(movieImage("w220_and_h330_face/60AQOrByV9vDCqy6nt4eOroRild.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming5.setTitle("The Card Counter");
+        upcoming5.setImageUrl(movieImage("w220_and_h330_face/60AQOrByV9vDCqy6nt4eOroRild.jpg"));
+        upcoming5.setNumRating(0);
+        upcoming5.setRating(0.0f);
+        upcoming5.setCategory("Upcoming");
 
         Movie upcoming6 = new Movie();
-        new10.setTitle("Dear Evan Hansen");
-        new10.setImageUrl(movieImage("w220_and_h330_face/11sowWt2GlQj6lGG4foLldXMyzF.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming6.setTitle("Dear Evan Hansen");
+        upcoming6.setImageUrl(movieImage("w220_and_h330_face/11sowWt2GlQj6lGG4foLldXMyzF.jpg"));
+        upcoming6.setNumRating(0);
+        upcoming6.setRating(0.0f);
+        upcoming6.setCategory("Upcoming");
 
         Movie upcoming7 = new Movie();
-        new10.setTitle("Time Is Up");
-        new10.setImageUrl(movieImage("w220_and_h330_face/inNOfgjhnPZkJfqpLS1mk4GbzMc.jpg"));
-        new10.setNumRating(0);
-        new10.setRating(0.0f);
-        new10.setCategory("Upcoming");
+        upcoming7.setTitle("Time Is Up");
+        upcoming7.setImageUrl(movieImage("w220_and_h330_face/inNOfgjhnPZkJfqpLS1mk4GbzMc.jpg"));
+        upcoming7.setNumRating(0);
+        upcoming7.setRating(0.0f);
+        upcoming7.setCategory("Upcoming");
 
 
         movieRepository.save(new1);
@@ -314,12 +314,12 @@ public class MovieInitializer implements CommandLineRunner {
         movieRepository.save(acao6);
         movieRepository.save(acao7);
 
-        movieRepository.save(popular1);
-        movieRepository.save(popular2);
+        movieRepository.save(popular6);
         movieRepository.save(popular3);
+        movieRepository.save(popular2);
         movieRepository.save(popular4);
         movieRepository.save(popular5);
-        movieRepository.save(popular6);
+        movieRepository.save(popular1);
         movieRepository.save(popular7);
 
         movieRepository.save(upcoming1);
