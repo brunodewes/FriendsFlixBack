@@ -86,6 +86,107 @@ public class MovieInitializer implements CommandLineRunner {
         new10.setRating(0.0f);
         new10.setCategory("New");
 
+
+        Movie topRated1 = new Movie();
+        topRated1.setTitle("The Godfather (1972)");
+        topRated1.setImageUrl(movieImage("w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"));
+        topRated1.setNumRating(0);
+        topRated1.setRating(0.0f);
+        topRated1.setCategory("Top Rated");
+
+        Movie topRated2 = new Movie();
+        topRated2.setTitle("Your Name. (2016)");
+        topRated2.setImageUrl(movieImage("w600_and_h900_bestv2/q719jXXEzOoYaps6babgKnONONX.jpg"));
+        topRated2.setNumRating(0);
+        topRated2.setRating(0.0f);
+        topRated2.setCategory("Top Rated");
+
+        Movie topRated3 = new Movie();
+        topRated3.setTitle("Parasite (2019)");
+        topRated3.setImageUrl(movieImage("w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"));
+        topRated3.setNumRating(0);
+        topRated3.setRating(0.0f);
+        topRated3.setCategory("Top Rated");
+
+        Movie topRated4 = new Movie();
+        topRated4.setTitle("My Hero Academia: Heroes Rising (2019)");
+        topRated4.setImageUrl(movieImage("w600_and_h900_bestv2/zGVbrulkupqpbwgiNedkJPyQum4.jpg"));
+        topRated4.setNumRating(0);
+        topRated4.setRating(0.0f);
+        topRated4.setCategory("Top Rated");
+
+        Movie topRated5 = new Movie();
+        topRated5.setTitle("The Dark Knight (2008)");
+        topRated5.setImageUrl(movieImage("w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg"));
+        topRated5.setNumRating(0);
+        topRated5.setRating(0.0f);
+        topRated5.setCategory("Top Rated");
+
+        Movie topRated6 = new Movie();
+        topRated6.setTitle("The Lord of the Rings: The Return of the King (2003)");
+        topRated6.setImageUrl(movieImage("w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"));
+        topRated6.setNumRating(0);
+        topRated6.setRating(0.0f);
+        topRated6.setCategory("Top Rated");
+
+        Movie topRated7 = new Movie();
+        topRated7.setTitle("Forrest Gump (1994)");
+        topRated7.setImageUrl(movieImage("w600_and_h900_bestv2/h5J4W4veyxMXDMjeNxZI46TsHOb.jpg"));
+        topRated7.setNumRating(0);
+        topRated7.setRating(0.0f);
+        topRated7.setCategory("Top Rated");
+
+        Movie acao1 = new Movie();
+        acao1.setTitle("The Suicide Squad");
+        acao1.setImageUrl(movieImage("w600_and_h900_bestv2/iXbWpCkIauBMStSTUT9v4GXvdgH.jpg"));
+        acao1.setNumRating(0);
+        acao1.setRating(0.0f);
+        acao1.setCategory("Action");
+
+        Movie acao2 = new Movie();
+        acao2.setTitle("Sweet Girl (2021)");
+        acao2.setImageUrl(movieImage("w600_and_h900_bestv2/cP7odDzzFBD9ycxj2laTeFWGLjD.jpg"));
+        acao2.setNumRating(0);
+        acao2.setRating(0.0f);
+        acao2.setCategory("Action");
+
+        Movie acao3 = new Movie();
+        acao3.setTitle("Jungle Cruise (2021)");
+        acao3.setImageUrl(movieImage("w600_and_h900_bestv2/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"));
+        acao3.setNumRating(0);
+        acao3.setRating(0.0f);
+        acao3.setCategory("Action");
+
+        Movie acao4 = new Movie();
+        acao4.setTitle("Black Widow (2021)");
+        acao4.setImageUrl(movieImage("w600_and_h900_bestv2/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"));
+        acao4.setNumRating(0);
+        acao4.setRating(0.0f);
+        acao4.setCategory("Action");
+
+        Movie acao5 = new Movie();
+        acao5.setTitle("Narco Sub (2021)");
+        acao5.setImageUrl(movieImage("w600_and_h900_bestv2/7p0O4mKYLIhU2E5Zcq9Z3vOZ4e9.jpg"));
+        acao5.setNumRating(0);
+        acao5.setRating(0.0f);
+        acao5.setCategory("Action");
+
+        Movie acao6 = new Movie();
+        acao6.setTitle("Free Guy (2021)");
+        acao6.setImageUrl(movieImage("w600_and_h900_bestv2/hEqw9swA8gFJuNjgWYEypwZfkZg.jpg"));
+        acao6.setNumRating(0);
+        acao6.setRating(0.0f);
+        acao6.setCategory("Action");
+
+        Movie acao7 = new Movie();
+        acao7.setTitle("Beckett (2021)");
+        acao7.setImageUrl(movieImage("w600_and_h900_bestv2/fBJducGBcmrcIOQdhm4BUBNDiMu.jpg"));
+        acao7.setNumRating(0);
+        acao7.setRating(0.0f);
+        acao7.setCategory("Action");
+
+
+
         movieRepository.save(new1);
         movieRepository.save(new2);
         movieRepository.save(new3);
@@ -96,6 +197,23 @@ public class MovieInitializer implements CommandLineRunner {
         movieRepository.save(new8);
         movieRepository.save(new9);
         movieRepository.save(new10);
+
+        movieRepository.save(topRated1);
+        movieRepository.save(topRated2);
+        movieRepository.save(topRated3);
+        movieRepository.save(topRated4);
+        movieRepository.save(topRated5);
+        movieRepository.save(topRated6);
+        movieRepository.save(topRated7);
+
+        movieRepository.save(acao1);
+        movieRepository.save(acao2);
+        movieRepository.save(acao3);
+        movieRepository.save(acao4);
+        movieRepository.save(acao5);
+        movieRepository.save(acao6);
+        movieRepository.save(acao7);
+
     }
 
     private String movieImage(String url) {
